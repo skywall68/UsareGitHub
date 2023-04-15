@@ -1,0 +1,20 @@
+/* font-family: 'Shantell Sans', cursive; */
+/*****************************
+SET COLORI E FONT presi da https://color.adobe.com/it/create/color-wheel
+
+primario: #963C79
+secondario:#E4D57B
+sfondi: #aaa
+font logo:Tilt Neon
+font testo:Shantell Sans
+********************************/
+body {
+    width: 100px;
+    margin:0,auto;
+    background-color:#fff ;
+    font-family:'Shantell Sans', cursive ;
+    color:#000;
+}
+img {
+    width:100%;
+}
