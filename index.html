@@ -45,8 +45,37 @@
         <p>
          Il terzo comando è aggiungere i files uno per uno:
          git add index.html  
-         git add leggimi.txt
-         ... tutti i files
+         git add script.js
+         ... tutti i files (non ho incluso leggimi.txt in questo comando)
+         adesso posso vedere lo stato:
+         git status
+         Vedo che leggimi.txt non è stato tracciato e per essere poi 'committed'
+         impiegati nel loro utilizzo.
+        </p>
+        <p>
+            Il quarto passaggio è quello di renderli utilizzabili con gitHub:
+            git commit -m "mio messaggio come:'ho iniziato questo nuovo progetto'"
+        </p>
+        <p>
+            Il quinto passaggio bisogna far sapere a GitHub il cambiamento con:
+            git push
+        </p>
+        <p>
+            Adesso voglio recuperare il progetto in un altra cartella chiamata recupero,
+            vado sulla mia pagina di gitHub, premo il tasto verde copio l'indirizzo http sotto clone:
+            https://github.com/skywall68/UsareGitHub.git
+            dentro la cartella 'recupero'  scrivo:
+            git clone https://github.com/skywall68/UsareGitHub.git
+        </p>
+        <p>
+            Mettiamo che adesso ho modificato il file E VOGLIO AGGIORNARLO:
+            Sempre nella cartella 'main' scrivo:
+            git status
+            Visualizzo i files modificati.
+            Adesso aggiorno GitHub con il scrivere la modifica del singolo file:
+            git add index.html
+            oppure se ho modificato diversi files scrivo:
+            git add .
         </p>
        
 
