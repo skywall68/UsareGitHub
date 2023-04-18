@@ -76,6 +76,58 @@
             git add index.html
             oppure se ho modificato diversi files scrivo:
             git add .
+            Dopo questo scrivo:
+            git commit -m "mio messaggio"
+            git push
+            A questo punto il codice è stato modificato su GitHub.
+
+        </p>
+        <p>
+            <h3>Riassumo:</h3>
+            NUOVO PROGETTO:
+            Iniziamo andare sul sito, e dopo essere entrati E LOGGATI premiamo sul tasto verde New
+            diamo un nome 'UsareGitHub'
+            -lasciamo spuntato 'public'
+            -spuntiamo Add a README file
+            -Premiamo Create repository
+            tasto <> Code e scelgo Clone HTTPS e copio il link.
+            Andiamo sulla directory 'gitHub_esempio' e scriviamo:
+                 git clone https://github.com/skywall68/UsareGitHub.git
+            Adesso prendiamo i nostri file e li portiamo dentro la cartella 'UsareGitHub'
+            Andiamo su 'UsareGitHub'(main) con cd e poi per vedere i file scriviamo
+                 ls
+                 Vediamo i file spostati.
+            Vediamo se ci sono i dati usando gitHub:
+                 git status
+            Abbiamo 'Untracked' tracciamo i nostri files
+            aggiungere i files uno per uno:
+                   git add index.html  
+                   git add script.js 
+                   ...
+            adesso posso vedere lo stato:
+                   git status 
+            li rendiamo utilizzabili con gitHub:
+                   git commit -m "mio messaggio come:'ho iniziato questo nuovo progetto'" 
+           aggiorno il tutto con:
+                   git push
+           COME COPIARE I FILES SU NUOVO PROGETTO:
+           Sulla cartella (main) del nuovo progetto:
+           premo il tasto verde copio l'indirizzo http sotto clone:
+           https://github.com/skywall68/UsareGitHub.git
+           git clone https://github.com/skywall68/UsareGitHub.git
+           Adesso nella cartella ho copiato tutti i files.
+           Porto le dovute modifiche e poi lo AGGIORNO:
+           git status
+          Visualizzo i files modificati.
+           git add .   riferito a tutti i file modificati
+           git commit -m "mio messaggio come 'ho aggiornato il file"
+           git push
+
+
+
+
+
+
         </p>
        
 
