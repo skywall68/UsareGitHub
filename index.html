@@ -46,6 +46,9 @@
          Il terzo comando è aggiungere i files uno per uno:
          git add index.html  
          git add script.js
+         Se abbiamo una directory con molti files all'interno:
+         git add directory/.
+         Il punto (.) è * copia tutti i files
          ... tutti i files (non ho incluso leggimi.txt in questo comando)
          adesso posso vedere lo stato:
          git status
@@ -59,6 +62,12 @@
         <p>
             Il quinto passaggio bisogna far sapere a GitHub il cambiamento con:
             git push
+Se ho già un progetto con file e cartelle quando arrivo a questo punto devo trovarmi
+sulla directory(master) e scrivere:
+
+$ git push --set-upstream https://github.com/skywall68/indovinaNumero.git master
+
+Questo mi serve per inviare i dati a GitHub
         </p>
         <p>
             Adesso voglio recuperare il progetto in un altra cartella chiamata recupero,
