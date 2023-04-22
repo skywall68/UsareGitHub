@@ -146,6 +146,28 @@ Questo mi serve per inviare i dati a GitHub
             git restore nomefile
             git pull
         </p>
+        <p>
+            <h2>Come creare dei nuovi rami</h2>
+            visualizzo il ramo in cui mi trovo:
+            git branch
+            creo un nuovo ramo che viaggia parallelo a main
+            git branch nuovoramo
+            entro dentro a questo ramo
+            git checkout nuovoramo
+            Mi visualizza tutti i files
+            Porto le modifiche e visualizzo i files con
+            git status
+            Aggiorniamo i files
+            git add .
+            Creiamo il commit (commentiamo cosa abbiamo fatto)
+            git commit -m "istruzioni per creare nuovo ramo"
+            Inseriamo dentro al sito
+            git push --set-upstream origin nuovoramo
+            Questo vale SOLO la prima volta che si crea un nuovo ramo poi si usa
+            git push
+            NOTA BENE: git commit -m "" va sempre usato
+
+        </p>
        
 
     </div>
